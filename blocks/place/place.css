@@ -3,7 +3,6 @@
   grid-template-columns: 460px 1fr;
   gap: 48px 40px;
   padding-bottom: 80px;
-  border: 1px solid red;
 }
 
 .place:last-of-type {
@@ -27,7 +26,6 @@
 
 @media screen and (max-width: 680px) {
   .place {
-    /* grid-template-columns: 100%; */
     grid-template-columns: 1fr;
     gap: 32px; /* расстояния между блоками в одной колонке */
     padding-bottom: 50px;
