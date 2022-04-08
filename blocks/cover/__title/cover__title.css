@@ -1,0 +1,29 @@
+.cover__title {
+  max-width: 560px;
+  margin: 0 0 32px;
+  font-size: 72px;
+  line-height: 1.06;
+  text-align: center;
+  font-weight: 900;
+
+}
+
+/* Промежуточный слой адаптации - начало */
+@media screen and (max-width: 430px) {
+  .cover__title {
+    font-size: 52px;
+    line-height: 1.09;
+    max-width: 330px;
+    margin: 0 0 16px;
+  }
+}
+/* Промежуточный слой адаптации - конец*/
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 1.09;
+    max-width: 288px;
+    margin: 33px 0 16px;
+  }
+}
