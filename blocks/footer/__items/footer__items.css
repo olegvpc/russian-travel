@@ -5,12 +5,12 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  /* align-self: end; */
 }
 
 @media screen and (max-width: 649px) {
   .footer__items {
     flex-direction: column;
+    align-items: flex-start;
   }
 
 }
