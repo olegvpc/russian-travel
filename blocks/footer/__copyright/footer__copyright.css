@@ -8,7 +8,7 @@
   align-self: end; /* ставим элемент в конец блока */
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .footer__copyright {
     align-self: start;
   }
